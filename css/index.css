@@ -39,10 +39,43 @@ nav {
   color: rgb(170, 170, 170);
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
+  font-size: 4vw;
   padding: 2vw;
   margin: 0 auto;
   margin-top: 2.5vw;
-  background-color: rgb(33, 33, 33);
+  background-color: var(--background-color--cell);
+  border-radius: var(--border-radius);
+  width: var(--width-max);
+}
+
+header {
+  margin: 3vw;
+}
+
+.swiper {
+  height: 24vw;
+  padding: 2vw;
+  width: var(--width-max);
+  background-color: var(--background-color--cell);
+  border-radius: var(--border-radius);
+}
+
+main {
+  display: block;
+  margin-top: 3vw;
+}
+
+footer {
+  display: flex;
+  color: rgb(170, 170, 170);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4vw;
+  padding: 2vw;
+  margin: 0 auto;
+  margin-top: 2.5vw;
+  margin-bottom: 6vw;
+  background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
   width: var(--width-max);
 }/*# sourceMappingURL=index.css.map */
