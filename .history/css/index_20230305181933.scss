@@ -71,19 +71,15 @@ $colors: (bg: rgba(55, 66, 76, 1),
 body {
     margin-top: 6vw;
     background-color: var(--background-color);
-    
+    overflow: scroll;
+    overflow-x: hidden;
+
 }
 
 h1 {
 
     color: var(--type-color-one);
 }
-
-body::-webkit-scrollbar {
-    display: none;
-}
-
-
 
 nav {
     display: flex;

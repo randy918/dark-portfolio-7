@@ -79,12 +79,6 @@ h1 {
     color: var(--type-color-one);
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
-
-
 nav {
     display: flex;
     color: getColor(grey400);
@@ -119,6 +113,8 @@ margin: 3vw;
 main {
 display: block;
 margin-top: 3vw;
+overflow: scroll;
+    overflow-x: hidden;
 
 }
 
