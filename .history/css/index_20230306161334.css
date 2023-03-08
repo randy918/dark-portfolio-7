@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+:root {
+  --border-radius: 0.5rem;
+  --width-max: 75vw;
+  --background-color: rgb(24, 24, 24);
+  --background-color--cell: rgb(33, 33, 33);
+  --type-color-one: rgb(61, 61, 61);
+}
+
+* *::before,
+* *::after {
+  box-sizing: border-box;
+  border: none;
+}
+* body,
+* h1,
+* h2,
+* h3,
+* h4,
+* p,
+* figure,
+* blockquote,
+* dl,
+* dd {
+  margin: 0;
+}
+
+body {
+  margin-top: 6vw;
+  background-color: var(--background-color);
+}
+
+h1 {
+  color: var(--type-color-one);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  display: flex;
+  color: rgb(170, 170, 170);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4vw;
+  padding: 2vw;
+  margin: 0 auto;
+  margin-top: 2.5vw;
+  background-color: var(--background-color--cell);
+  border-radius: var(--border-radius);
+  width: var(--width-max);
+}
+
+header {
+  margin: 3vw;
+}
+
+.swiper {
+  height: 24vw;
+  padding: 2vw;
+  width: var(--width-max);
+  background-color: var(--background-color--cell);
+  border-radius: var(--border-radius);
+}
+.swiper-slide {
+  padding: vw;
+}
+
+#swiper-1 .swiper-pagination {
+  bottom: 1vw;
+}
+
+#swiper-1 .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: white;
+}
+
+#swiper-1 .swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: red;
+}
+
+main {
+  display: block;
+  margin-top: 3vw;
+}
+
+footer {
+  display: flex;
+  color: rgb(170, 170, 170);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4vw;
+  padding: 2vw;
+  margin: 0 auto;
+  margin-top: 2.5vw;
+  margin-bottom: 6vw;
+  background-color: var(--background-color--cell);
+  border-radius: var(--border-radius);
+  width: var(--width-max);
+}/*# sourceMappingURL=index_20230306161334.css.map */

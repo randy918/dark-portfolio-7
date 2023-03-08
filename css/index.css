@@ -53,15 +53,41 @@ nav {
 }
 
 header {
-  margin: 3vw;
+  margin: 0 auto;
+  margin-top: 2.5vw;
+  width: 79vw;
+  background-size: cover;
 }
 
 .swiper {
   height: 24vw;
-  padding: 2vw;
-  width: var(--width-max);
   background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
+}
+
+.swiper-slide img {
+  background-color: red;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  width: 79vw;
+  border-radius: var(--border-radius);
+}
+
+#swiper-1 .swiper-pagination {
+  bottom: 1vw;
+}
+
+#swiper-1 .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: white;
+}
+
+#swiper-1 .swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: red;
 }
 
 main {
