@@ -184,8 +184,5 @@ footer {
     background-color: var(--background-color--cell);
     border-radius: var(--border-radius);
     width: var(--width-max);
-    transition: 1s;
-&:hover {
-margin-top: 6.5vw;
-}
+    
 }

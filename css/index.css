@@ -109,4 +109,8 @@ footer {
   background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
   width: var(--width-max);
+  transition: 1s;
+}
+footer:hover {
+  margin-top: 6.5vw;
 }/*# sourceMappingURL=index.css.map */
