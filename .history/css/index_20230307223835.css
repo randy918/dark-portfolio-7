@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+:root {
+  --border-radius: 0.5rem;
+  --width-max: 75vw;
+  --background-color: rgb(24, 24, 24);
+  --background-color--cell: rgb(33, 33, 33);
+  --type-color-one: rgb(61, 61, 61);
+}
+
+* *::before,
+* *::after {
+  box-sizing: border-box;
+  border: none;
+}
+* body,
+* h1,
+* h2,
+* h3,
+* h4,
+* p,
+* figure,
+* blockquote,
+* dl,
+* dd {
+  margin: 0;
+}
+
+body {
+  margin-top: 6vw;
+  background-color: var(--background-color);
+}
+
+h1 {
+  color: var(--type-color-one);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  display: flex;
+  color: rgb(170, 170, 170);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4vw;
+  padding: 2vw;
+  margin: 0 auto;
+  margin-top: 2.5vw;
+  background-color: var(--background-color--cell);
+  border-radius: var(--border-radius);
+  width: var(--width-max);
+}
+
+header {
+  margin: 0 auto;
+  margin-top: 2.5vw;
+  width: 79vw;
+  background-size: cover;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide > .swiper-slide-cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent no-repeat 50% 50%/cover;
+}
+
+.swiper-container {
+  max-width: 800px;
+  height: 300px;
+}
+
+body {
+  text-align: center;
+}
+
+.swiper-slide .slide1 {
+  background-image: url(https://picsum.photos/800/400?image=670);
+  transform-origin: 0 100%;
+}
+
+.swiper-slide .slide2 {
+  background-image: url(https://picsum.photos/800/400?image=837);
+  transform-origin: 100% 100%;
+}
+
+.swiper-slide .slide3 {
+  background-image: url(https://picsum.photos/800/400?image=947);
+  transform-origin: 100% 0;
+}
+
+.swiper-slide .slide4 {
+  background-image: url(https://picsum.photos/750/250?image=945);
+  transform-origin: 0 100%;
+}
+
+.swiper-scale-effect .swiper-slide-cover {
+  transition: 10s ease-out;
+  transform: scale(1.2);
+}
+
+.swiper-scale-effect .swiper-slide.swiper-slide-active .swiper-slide-cover {
+  transform: scale(1);
+}
+
+main {
+  display: block;
+  margin-top: 3vw;
+}
+
+footer {
+  display: flex;
+  color: rgb(170, 170, 170);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4vw;
+  padding: 2vw;
+  margin: 0 auto;
+  margin-top: 2.5vw;
+  margin-bottom: 6vw;
+  background-color: var(--background-color--cell);
+  border-radius: var(--border-radius);
+  width: var(--width-max);
+}/*# sourceMappingURL=index_20230307223835.css.map */
